@@ -16,16 +16,6 @@
       document.getElementById("myInput").value = "";
 
 }*/
-function ajax()
-{
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function()
-  {
-    if(this.readyState==4&&this.status==200)
-    {
-    var response = JSON.parse(this.responseText);
-    var ul=document.getElementById("todolist");
-
 
 const express = require('express');
 const app = express();
@@ -42,8 +32,6 @@ app.listen(port, () => {
   console.log(`API listening on port ${port}`);
 });
 
-    }
-  }
 
 
 

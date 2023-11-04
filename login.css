@@ -1,0 +1,40 @@
+body{
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-attachment:fixed ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+
+}
+form{
+    color: bisque;
+    border: 4px solid rgb(119, 119, 115);
+    background: transparent;
+    backdrop-filter: blur(9px);
+    border-radius: 12px;
+    padding: 50px ;
+    margin: 90px;
+    width:300px ;
+}
+.styless
+{
+    font-family:monospace ;
+    font-size: medium;
+    font-weight: 600;
+    font-style: normal;
+}
+.input
+{
+    border-radius: 10px;
+    width: 200px;
+    background: transparent;
+    color: rgb(224, 207, 207);
+}
+.button
+{
+    border-radius: 15px;
+    width: 100px;
+    
+}

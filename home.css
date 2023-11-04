@@ -1,0 +1,147 @@
+body{
+    background-image: url('image.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.nav-link{
+    color:#000000 !important;
+    font-size: 25px !important;
+    font-weight: 700;
+    margin-left: 30px;
+    font-family: 'montserret';
+   
+}
+/*.navbar-nav .nav-item .nav-link{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar-nav .nav-item .nav-link a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.navbar-nav .nav-item .nav-link::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #b7675a;
+    position: absolute;
+    left: 0;
+     bottom: -5px; 
+    transition: 0.5s;
+
+}
+.navbar-nav .nav-item .nav-link:hover::after{
+    width: 100%;
+}
+.navbar-brand img{
+    width: 130px;
+}
+
+/*.wrapper{
+    margin: 50px auto;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0 0 40px 2px rgba(214, 37, 67, 0.18);
+}
+
+.feature-box{
+    padding: 30px;
+
+}*/
+.feature-box
+{
+    background-color: transparent;
+    backdrop-filter: blur(9px);
+}
+
+.feature-box h1{
+    text-align: center;
+    margin-top: 80px;
+    color: rgb(131, 49, 49);
+    padding-bottom: 10px;
+    font-family: 'montserret';
+    font-weight: 700;
+}
+
+.feature-box a{
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 20px 20px; 
+    color: #302222;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid #b7675a !important;
+    background: transparent ;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.btns
+{
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+/*.feature-box a span{
+    background:#b7675a !important ;
+    height: 100%;
+    width: 0;
+    border-radius: 200px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    color: #ffffff !important;
+}
+
+.btn-one:hover span{
+    color: #b7675a !important;
+    
+        width: 100%;
+    
+}
+.feature-box a:hover{
+    border: none !important;
+   
+}
+.btn-two{
+    background-color: black;
+    color:  #b7675a !important;
+    width: 100%;
+    position: relative;
+   
+}
+
+.feature-image{
+    width: 100%;
+    padding: 40px;
+}
+.wave{
+    width: 100%;
+    position: absolute;
+    display: block;
+     top: 3%; 
+    z-index: -1;
+    opacity: 0.3;
+}
+
+@media only screen and ( max-width:990px){
+    .wave{
+        display: none;
+    }
+    .feature-box a{
+        padding: 5px 8px;
+        margin-right: 10px;
+    }
+}*/
